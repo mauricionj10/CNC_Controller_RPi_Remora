@@ -7,7 +7,7 @@ ser = serial.Serial('COM3', 115200)
 # Abrir um arquivo CSV para escrita
 with open('dados.csv', mode='w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(['Dados'])  # Cabeçalho da coluna
+    writer.writerow(['Contagem de Pulsos por Eixo'])  # Cabeçalho da coluna
 
     try:
         while True:
