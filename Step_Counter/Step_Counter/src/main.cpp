@@ -4,7 +4,7 @@
 
     Developer: Mauricio Neves Junior
     Date: 2024/05/02
-    Version: v1.10
+    Version: v1.15
 
 */
 
